@@ -1,0 +1,6 @@
+Python packages in requirements.txt
+
+Data files (PAMAP, DSADS, HAPT, WISDM): https://drive.google.com/drive/folders/1_XqENF3kA_N7iC0f5qUHK9VNBzZjedoY?usp=sharing
+
+Running script example:
+python ../har_expert_trainer.py -d 1 -lr 0.01 -wd 1e-4 -mom 0 -b 20 -e 200 -sch 50 -exemplar_per_class 10 -gmm 1 -model_path "for_paper/dsads_trial2/dsads_ns_10_1.pkl" > "for_paper/dsads_trial2/dsads_ns_10_1.txt"
